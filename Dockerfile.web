@@ -1,0 +1,18 @@
+FROM node:24-alpine
+WORKDIR /app
+
+RUN npm install -g pnpm sirv-cli
+
+RUN apk add --no-cache python3 make g++
+
+COPY . .
+
+RUN pnpm install
+
+WORKDIR /app/web
+RUN WEB_DEFAULT_API=https://citron.satu.zip pnpm run build
+
+EXPOSE 9002
+ENV PORT=9002
+
+CMD ["sirv", "build", "--port", "9002", "--host", "0.0.0.0", "--single"]
