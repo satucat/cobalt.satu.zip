@@ -150,7 +150,7 @@
 
 {#if env.DEFAULT_API !== officialApiURL}
     <div id="instance-label">
-        A community instance by <a href="https://s.satu.zip" target="_blank">Saturn</a>. | Raspberry Pi 5 
+        a community instance by <a href="https://s.satu.zip" target="_blank">saturn.</a><br><br>the most tuffest cobalt instance on the web
     </div>
 {/if}
 

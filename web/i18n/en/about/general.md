@@ -11,6 +11,8 @@
     sectionId="summary"
 />
 
+Instance hosted by Saturn, not affiliated with Imput and this server uses [a fork of cobalt.](https://github.com/satucat/cobalt.satu.zip) Forked from zImPatrick/cobalt
+
 cobalt helps you save anything from your favorite websites: video, audio, photos or gifs. just paste the link and you're ready to rock!
 
 no ads, trackers, paywalls, or other nonsense. just a convenient web app that works anywhere, whenever you need it.
