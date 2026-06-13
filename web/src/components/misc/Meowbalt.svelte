@@ -16,7 +16,7 @@
     class="meowbalt {emotion}"
     class:loaded={loaded || forceLoaded}
     onload={() => (loaded = true)}
-    src="/toroInoue/smile.png"
+    src="/toroInoue/{emotion}.png"
     height="152"
     alt={$t("general.meowbalt")}
     aria-hidden="true"
