@@ -149,9 +149,9 @@
 -->
 
 {#if env.DEFAULT_API !== officialApiURL}
-    <div id="instance-label">
-        a community instance by <a href="https://s.satu.zip" target="_blank">saturn.</a>
-    </div>
+<div id="instance-label" style="background: linear-gradient(to right, red, orange, yellow, green, blue, purple); -webkit-background-clip: text; color: transparent;">
+    a community instance by <a href="https://s.satu.zip" target="_blank" style="color: transparent; -webkit-text-fill-color: transparent;">saturn.</a>
+</div>
 {/if}
 
 <div id="omnibox">

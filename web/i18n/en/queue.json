@@ -1,6 +1,6 @@
 {
-    "title": "processing queue",
-    "stub": "nothing here yet, just the two of us.\ntry downloading something!",
+    "title": "downloading queue",
+    "stub": "toro has nothing to eat!\ntry downloading something twin",
 
     "state.waiting": "queued",
     "state.retrying": "retrying",
